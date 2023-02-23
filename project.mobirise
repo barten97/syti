@@ -1,0 +1,2030 @@
+{
+  "settings": {
+    "name": "SYTI SEGURIDAD Y TECNOLOGIA INTELIGENTE",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "blackamp",
+      "title": "BlackAMP",
+      "styling": {
+        "primaryColor": "#df161e",
+        "secondaryColor": "#a9051e",
+        "successColor": "#df161e",
+        "infoColor": "#d9d9d9",
+        "warningColor": "#767676",
+        "dangerColor": "#12171d",
+        "mainFont": "Source Sans Pro",
+        "display1Font": "Bebas Neue",
+        "display1Size": 4.5,
+        "display2Font": "Tinos",
+        "display2Size": 2.2,
+        "display5Font": "Rubik",
+        "display5Size": 1.8,
+        "display7Font": "Open Sans",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 1,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#dd4f39"
+      },
+      "additionalSetColors": [
+        "#df161e",
+        "#a9051e",
+        "#12171d",
+        "#d9d9d9"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.8.0",
+    "siteFonts": [
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      },
+      {
+        "css": "'Oswald', sans-serif",
+        "name": "Oswald",
+        "url": "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700"
+      },
+      {
+        "css": "'Anton', sans-serif",
+        "name": "Anton",
+        "url": "https://fonts.googleapis.com/css?family=Anton:400"
+      },
+      {
+        "css": "'Bebas Neue', display",
+        "name": "Bebas Neue",
+        "url": "https://fonts.googleapis.com/css?family=Bebas+Neue:400"
+      },
+      {
+        "css": "'Open Sans', sans-serif",
+        "name": "Open Sans",
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i"
+      },
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "imageResize": true,
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": false,
+    "siteUrl": false,
+    "sitemapSwitcherAuto": "on",
+    "favicon": false,
+    "mbrsiteDomain": "09x7faxonm",
+    "canonical-url": false,
+    "cssOptimize": true,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 51,
+    "versionPublish": "5.8.0"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "SYTI Seguridad y Tecnología Inteligente | Especialistas Proyectos de Seguridad CDMX",
+        "meta_descr": "Levantamiento, instalación, venta, soporte y servicio especializado de sistemas de vigilancia. Cámaras CCTV, IP, control de movimiento, sistema de alarmas y mucho más.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "amp-sidebar": {
+              "min-width": "260px!important",
+              "z-index": "1050!important",
+              "background-color": "@menuBgColor"
+            },
+            "amp-sidebar.open:after": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "background-color": "red"
+            },
+            ".open": {
+              "animation": "none",
+              "-webkit-transform": "translateX(0%) !important",
+              "transform": "translateX(0%) !important",
+              "display": "block!important"
+            },
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor",
+              "position": "relative",
+              "min-height": "100vh",
+              "z-index": "1030",
+              "padding": "1rem 2rem",
+              "max-width": "20rem"
+            },
+            ".headerbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding": ".5rem 1rem",
+              "min-height": "70px",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "@menuBgColor",
+              "&.sticky-nav": {
+                "position": "fixed",
+                "z-index": "1000",
+                "width": "100%"
+              }
+            },
+            "button.sticky-but": {
+              "position": "fixed"
+            },
+            ".brand": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "p": {
+                "margin": "0",
+                "padding": "0"
+              },
+              "@media (max-width: 991px)": {
+                "-webkit-align-self": "flex-start",
+                "align-self": "flex-start",
+                "padding-right": "30px"
+              }
+            },
+            ".brand-name": {
+              "color": "#232323"
+            },
+            ".sidebar": {
+              "padding": "1rem 0",
+              "margin": "0"
+            },
+            ".sidebar > li": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".sidebar a": {
+              "display": "block",
+              "text-decoration": "none",
+              "margin-bottom": "10px"
+            },
+            ".close-sidebar": {
+              "width": "30px",
+              "height": "30px",
+              "position": "relative",
+              "cursor": "pointer",
+              "background-color": "transparent",
+              "border": "none",
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              },
+              "span": {
+                "position": "absolute",
+                "left": "0",
+                "top": "50%",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "-webkit-transform": "rotate(45deg)",
+                  "transform": "rotate(45deg)"
+                },
+                "&:nth-child(2)": {
+                  "-webkit-transform": "rotate(-45deg)",
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& .brand-name": {
+                "min-width": "8rem"
+              },
+              "& .builder-sidebar": {
+                "margin-left": "auto",
+                ".sidebar li": {
+                  "-webkit-flex-direction": "row",
+                  "flex-direction": "row",
+                  "-webkit-flex-wrap": "wrap",
+                  "flex-wrap": "wrap",
+                  "a": {
+                    "padding": ".5rem",
+                    "margin": "0"
+                  }
+                }
+              },
+              "& .builder-overlay": {
+                "display": "none !important"
+              }
+            },
+            ".hamburger": {
+              "position": "absolute",
+              "top": "25px",
+              "right": "20px",
+              "margin-left": "auto",
+              "width": "30px",
+              "height": "20px",
+              "background": "none",
+              "border": "none",
+              "cursor": "pointer",
+              "z-index": "1000",
+              "& when (@showLogo)": {
+                "@media (min-width: 768px)": {
+                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
+                }
+              },
+              "&:focus": {
+                "outline": "none"
+              },
+              "span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "amp-img": {
+              "margin-right": "1rem",
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "@media (max-width: 768px)": {
+                "max-height": "55px",
+                "max-width": "55px"
+              },
+              "img": {
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"120\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#df161e\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo-sity-or-110x50.png\" layout=\"responsive\" width=\"121.00000000000001\" height=\"55\" alt=\"SYTI Seguridad y Tecnologia Inteligente | Instalacion Camaras CCTV\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo-sity-or-110x50.png\" alt=\"SYTI Seguridad y Tecnologia Inteligente | Instalacion Camaras CCTV\" data-aspectratio=\"0.9842931937172775\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">Black AMP</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">Inicio</a>\n              <a class=\"text-white text-primary\" href=\"servicios.html\" data-app-placeholder=\"Type Text\">Servicios</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_cid": "twF5TVsJL2",
+          "_anchor": "menu2-4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "flex",
+              "-webkit-align-items": "flex-end",
+              "align-items": "flex-end",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#fff",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "-webkit-align-self": "center",
+                "align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header5",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">INSTALACIÓN PROFESIONAL CÁMARAS DE SEGURIDAD &amp; ATENCIÓN AL CLIENTE 24/7<br></p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">SYTI Seguridad y Tecnologia Inteligente</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">CONOCE NUESTROS SERVICIOS</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/photo-2021-01-31-10-34-29-1024x1024.jpeg\" alt=\"Syti Seguridad Inteligente Instalación Cámaras de Seguridad\" width=\"895.1440868385346\" height=\"667.734\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/photo-2021-01-31-10-34-29-1024x1024.jpeg\" alt=\"Syti Seguridad Inteligente Instalación Cámaras de Seguridad\" title=\"\" data-aspectratio=\"1\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "twE8TqqUao",
+          "_anchor": "header5-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".card": {
+              "padding": "16px",
+              "-webkit-align-self": "center",
+              "align-self": "center"
+            },
+            ".mbr-section-subtitle": {
+              "margin": "0"
+            }
+          },
+          "_name": "content8",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"mbr-section content8\" plugins=\"amp-main\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"card mbr-col-md-7\">\n                <h2 class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n                    SYTI Tecnología y Seguridad Inteligente</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Especialistas en proyectos de seguridad.</h3>\n            </div>\n            <div class=\"card mbr-col-md-5\">\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-multiline mbr-article>\n                    <blockquote><b>EMPRESA LÍDER.</b></blockquote><blockquote>Actualmente en nuestro país se vive una época difícil llena de mucha inseguridad, donde nos vemos obligados a buscar las mejores condiciones de vida, para así cuidar nuestro patrimonio y proteger a nuestros seres queridos; SYTI SEGURIDAD es una empresa especializada en proyectos de Seguridad. Actualmente integramos soluciones para empresas, negocios y hogar, en el sector de seguridad, como sistema de Circuito Cerrado de Televisión, Alarmas y Controles de Acceso.</blockquote><blockquote>Para tal efecto, integramos las marcas más reconocidas a nivel mundial en cámaras, grabadores, productos y sistemas.</blockquote><blockquote><span style=\"background-color: transparent;\">Los recursos que integramos en nuestros sistemas, los diseñamos para una vigilancia inteligente, en la cual, nuestros clientes tienen acceso remoto (vía PC, celular o tablet) para monitorear los lugares donde tienen instalados nuestros sistemas.</span><br></blockquote>\n                </div>\n            </div>\n        </div>\n</div></section>",
+          "_cid": "twFLmzgbHS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content8-5"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".text-block": {
+              "margin": "auto"
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "features4",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#070c12\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-8\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/levantamiento-profesional-videovigilancia-1000x625.jpg\" layout=\"responsive\" width=\"836\" height=\"522.5\" alt=\"levantamiento profesional sistemas video vigilancia\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/levantamiento-profesional-videovigilancia-1000x625.jpg\" alt=\"levantamiento profesional sistemas video vigilancia\" data-aspectratio=\"0.6666666666666666\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-4\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Instalación Profesional Video Vigialancia</h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">La seguridad de tu patrimonio, hogar o negocio es una preocupación constante. Es importante que tomes medidas para garantizar que tu sistema de seguridad esta actualizado y en optimas condiciones.<br> Al revisarlo y actualizarlo con frecuencia, podrás estar seguro de que tu patrimonio, hogar o negocio están protegidos contra cualquier amenaza</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-primary\" href=\"mailto:contacto@systiseguridad.com.mx\" data-app-placeholder=\"Type Text\">CONTÁCTANOS</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "twGXtLVVVQ",
+          "_anchor": "features4-h",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1rem"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": ".5rem"
+            },
+            ".mbr-card-title": {
+              "margin": "0"
+            },
+            ".mbr-text": {
+              "margin": "0"
+            },
+            ".card": {
+              "padding": "1rem",
+              "border-radius": "0",
+              "margin-bottom": "2rem"
+            },
+            ".card1 .mbr-card-title": {
+              "color": "#ffffff"
+            },
+            ".card2 .mbr-card-title": {
+              "color": "#5b686b"
+            },
+            ".card3 .mbr-card-title": {
+              "color": "#232323"
+            },
+            ".card4 .mbr-card-title": {
+              "color": "#ffffff"
+            },
+            ".card1": {
+              "background": "@card1Color"
+            },
+            ".card2": {
+              "background": "@card2Color"
+            },
+            ".card3": {
+              "background": "@card3Color"
+            },
+            ".card4": {
+              "background": "@card4Color"
+            },
+            "@media (min-width: 768px)": {
+              ".card": {
+                "padding": "2rem"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".card": {
+                "margin-bottom": "0"
+              }
+            }
+          },
+          "_name": "features3",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"features3 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Content Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Icons On Hover\" name=\"onHoverColor\" value=\"#ffbc00\" condition=\"swIcon\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" name=\"card1Color\" title=\"Card 1 Color\" value=\"#15181b\">\n        <input type=\"color\" name=\"card2Color\" title=\"Card 2 Color\" value=\"#e0e0e0\" condition=\"cardsAmount>1\">\n        <input type=\"color\" name=\"card3Color\" title=\"Card 3 Color\" value=\"#dd4f39\" condition=\"cardsAmount>2\">\n        <input type=\"color\" name=\"card4Color\" title=\"Card 4 Color\" value=\"#b2ccd2\" condition=\"cardsAmount>3\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card1\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card1>.mbr-card-title,.card1>.mbr-section-btn\">\n                        MISIÓN</h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card1>.mbr-text,.card1>.mbr-section-btn\">Crear una infraestructura de Prevención que permita la protección y salvaguarda de la integridad de nuestros clientes; a través de la prestación de servicios profesionales fundados en la responsabilidad, el conocimiento, la vocación de servicio y la capacidad de adaptación a un mundo en constante evolución.</p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-white\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card2\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card2>.mbr-card-title,.card2>.mbr-section-btn\">\n                        VISIÓN</h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card2>.mbr-text,.card2>.mbr-section-btn\">\n                        Crear un nuevo paradigma en la prestación de servicios de protección que responda a los retos que nuestro país enfrenta con honestidad e integridad, dando soluciones integrales que satisfagan las necesidades y expectativas de nuestros clientes.\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-black\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card3\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-black\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card3>.mbr-card-title,.card3>.mbr-section-btn\">SERVICIOS</h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card3>.mbr-text,.card3>.mbr-section-btn\">• Centros de monitoreo 24 horas 365 días del año<br>• Intalación de cámaras de videovigilancia con mantenimiento 2 veces por año<br>• Venta, instalación y<br>monitoreo de alarma<br>• Pólizas anuales<br>• Cerca electrificada y control de acceso<br>• Video portero con App para celular</p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-black\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 row-item\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4}\">\n                <div class=\"card card4\">\n                    <h4 class=\"mbr-fonts-style mbr-card-title align-center mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card4>.mbr-card-title,.card4>.mbr-section-btn\">\n                        Interaction\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card4>.mbr-text,.card4>.mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum adipisci, excepturi laboriosam neque quibusdam culpa. Aliquid, ullam debitis veniam similique ex, cupiditate dolor. Doloremque numquam deleniti doloribus quaerat natus nisi!\n                    </p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-sm btn-white\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "twE9pgfDQ8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features3-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              "display": "flex",
+              "-ms-flex-direction": "column",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "min-width": "0",
+              "width": "100%",
+              "min-height": "1px",
+              ".card-wrapper": {
+                "padding-right": "2rem",
+                "padding-left": "2rem"
+              }
+            },
+            ".card-title": {
+              "margin": "0"
+            },
+            ".card-box": {
+              "padding-top": "2rem"
+            },
+            ".first-column .card-wrapper": {
+              "border-left": "1px solid @linesColor"
+            },
+            ".card-pb .card": {
+              "padding-bottom": "60%"
+            },
+            ".second-column": {
+              "border-left": "1px solid @linesColor",
+              ".card": {
+                "padding-top": "60%",
+                ".card-wrapper": {
+                  "border-right": "1px solid @linesColor"
+                }
+              }
+            },
+            "amp-img": {
+              "width": "100%"
+            },
+            ".amp-notsupported .temp-amp-sizer": {
+              "position": "absolute"
+            },
+            "@media (max-width: 767px)": {
+              ".card": {
+                "margin-bottom": "2rem",
+                "padding-bottom": "0",
+                ".card-wrapper": {
+                  "border-left": "1px solid @linesColor",
+                  "border-right": "none !important"
+                }
+              },
+              ".second-column": {
+                "border": "none"
+              }
+            },
+            ".card-title-fc": {
+              "color": "#df161e"
+            },
+            ".card-title-sc": {
+              "color": "#df161e"
+            }
+          },
+          "_name": "features12",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"features12 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <select title=\"Columns Count\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected=\"\">2</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Column 1 Items\" name=\"column1Items\" min=\"1\" max=\"4\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Column 2 Items\" name=\"column2Items\" min=\"1\" max=\"4\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Lines Color\" name=\"linesColor\" value=\"#cccccc\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"column first-column mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'card-pb': columnsCount == 2}\" mbr-list=\"\" mbr-list-grow=\"column1Items\">\n                <div class=\"card\">\n                    <div class=\"card-wrapper\">\n                        <div class=\"card-img\">\n                            <amp-img src=\"@PROJECT_PATH@/assets/images/videovigilancia-812x812.jpg\" layout=\"responsive\" width=\"476\" height=\"476\" alt=\"Levantamiento profesional sistema videovigilancia\" class=\"mobirise-loader\">\n                                <div placeholder=\"\" class=\"placeholder\"></div>\n                                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/videovigilancia-812x812.jpg\" alt=\"Levantamiento profesional sistema videovigilancia\" data-aspectratio=\"1\">\n                            </amp-img>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title card-title-fc mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title-fc\">INNOVACIÓN Y SEGURIDAD</h4>\n                            <p class=\"mbr-text-fc mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text-fc\">SYTI Seguridad y Tecnología inteligente es un proveedor confiable y líder de sistemas de seguridad en la Ciudad de México.<br><br>Ofrecemos una amplia gama de servicios de seguridad para proteger tus bienes y mantenerlos a salvo en todo momento. Contamos con un equipo altamente capacitado de expertos en seguridad que trabajan incansablemente para garantizar que nuestros clientes reciban el mejor servicio posible</p>\n                        </div>\n                    </div>\n                </div>\n\n                \n            </div>\n            \n            <div class=\"column second-column mbr-col-sm-12 mbr-col-md-6\" mbr-list=\"\" mbr-list-grow=\"column2Items\" mbr-if=\"columnsCount == 2\">\n                <div class=\"card\">\n                    <div class=\"card-wrapper\">\n                        <div class=\"card-img\">\n                            <amp-img src=\"@PROJECT_PATH@/assets/images/8awsa-950x1267.jpg\" layout=\"responsive\" height=\"633.5\" width=\"475\" alt=\"Instalacion profesional sistemas segurida\" class=\"mobirise-loader\">\n                                <div placeholder=\"\" class=\"placeholder\"></div>\n                                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/8awsa-950x1267.jpg\" alt=\"Instalacion profesional sistemas segurida\" data-aspectratio=\"0.6666666666666666\">\n                            </amp-img>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title card-title-sc mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title-sc\">ESTRATEGIA</h4>\n                            <p class=\"mbr-text-sc mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text-sc\">Todo levantamiento es elaborado con base en un diagnóstico, creado a partir de:<br>• Inteligencia humana (manejar fuentes y recopilar información)<br>• Inteligencia técnica (medios técnicos de recopilación de información)<br>• Análisis (estudio de la información, que permita la toma de decisiones)<br>• Seguridad electrónica (herramientas y sistemas que permiten la disuasión y la vigilancia continua)<br>• Lo que nos permite implementar un sistema integral de seguridad.</p>\n                        </div>\n                    </div>\n                </div>\n\n                \n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "twH09RnzlQ",
+          "_anchor": "features12-i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#070c12"
+            },
+            ".mbr-section-title": {
+              "& when not (@showSubtitle)": {
+                "padding-bottom": "2rem"
+              }
+            },
+            ".area": {
+              "width": "100%",
+              "padding": ".5rem"
+            },
+            ".field": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "padding": ".5rem",
+              "margin": "0"
+            },
+            "textarea": {
+              "width": "100%",
+              "max-width": "100%"
+            },
+            ".main-row": {
+              "padding-top": ".5rem",
+              "& when (@reverseContent)": {
+                "-webkit-flex-direction": "row-reverse",
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".list-item": {
+              "display": "flex",
+              "padding": "0 1.6rem 1.6rem 1.6rem",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".mbr-iconfont": {
+                "color": "@iconsColor"
+              },
+              "h5": {
+                "margin": "0",
+                "width": "100%"
+              },
+              "color": "#15181b"
+            },
+            ".map-placeholder": {
+              "display": "none",
+              "h4": {
+                "padding-top": "5rem",
+                "color": "#767676",
+                "text-align": "center"
+              }
+            },
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "width": "100%",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".mbr-col-md-12": {
+                "width": "100%"
+              },
+              ".main-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "column-reverse",
+                  "flex-direction": "column-reverse"
+                }
+              },
+              "label.input-label, textarea": {
+                "width": "100%"
+              },
+              ".form-content": {
+                "& when (@reverseContent)": {
+                  "padding-bottom": "2rem"
+                },
+                "& when not (@reverseContent)": {
+                  "padding-top": "2rem"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              "label.area": {
+                "padding": ".5rem .5rem"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "margin-right": "1rem",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\"",
+              "span.mbr-iconfont": {
+                "font-size": "~\"@{iconsSize}rem\""
+              }
+            },
+            "H2": {
+              "color": "#df161e"
+            }
+          },
+          "_name": "form3",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"form3 map\" group=\"Forms\" plugins=\"amp-main,amp-form,amp-mustache,amp-iframe\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.3\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#902413\" condition=\"showIcons\">\n        <input type=\"range\" inline name=\"listItems\" title=\"List Items\" min=\"0\" max=\"6\" value=\"0\">\n        <input type=\"checkbox\" title=\"Map on Left/Right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/intalacion-camaras-seguridad-cctiv-2000x1333.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#070c12\">\n        </fieldset>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15056.916775214007!2d-99.1316671!3d19.3592262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe3907bb99cb%3A0x734c81b2a39583a9!2sSyti%20Seguridad%20y%20Tecnologia%20Inteligente!5e0!3m2!1sen!2sus!4v1677141120959!5m2!1sen!2sus&quot; width=&quot;300&quot; height=&quot;650&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15056.916775214007!2d-99.1316671!3d19.3592262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe3907bb99cb%3A0x734c81b2a39583a9!2sSyti%20Seguridad%20y%20Tecnologia%20Inteligente!5e0!3m2!1sen!2sus!4v1677141120959!5m2!1sen!2sus&quot; width=&quot;300&quot; height=&quot;650&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\">\n            Contáctanos</h2>\n        <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\"><div><br></div><div>Mantén tu patrimonio seguro.</div><div>Obtén cotización gratis:</div><div>Llámanos hoy al<br><a href=\"https://wa.me/52 55 2065 1500\" class=\"text-primary\">WhatsApp:&nbsp;+52 55 2065 1500</a><br><a href=\"mailto:contacto@sytiseguridad.com.mx\" class=\"text-primary\">&nbsp;contacto@sytiseguridad.com.mx</a></div></h3>\n\n        <div class=\"mbr-row mbr-justify-content-center main-row\">\n            <div class=\"mbr-col-lg-6 mbr-col-md-12\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n                <div class=\"map-placeholder mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </div>\n            </div>\n\n            <div mbr-form class=\"mbr-col-lg-6 mbr-col-md-12 form-content\">\n                <div class=\"mbr-row\">\n                    <div class=\"mbr-col-lg-12\" mbr-if=\"listItems!=0\">\n                        <div class=\"mbr-row\" mbr-list mbr-list-grow=\"listItems\">\n                            <div class=\"list-item mbr-col-lg-6 mbr-col-md-6\">\n                                <div class=\"iconfont-wrapper\">\n                                    <span mbr-icon class=\"mbr-iconfont fa fa-phone-square\" mbr-if=\"showIcons\"></span>\n                                </div>\n                                <h5 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".list-item\">+52 55 2065 1500</h5>\n                            </div>\n                            \n                            \n                        </div>\n                    </div>\n                    <div class=\"mbr-col-lg-12 mbr-col-md-12\">\n                        <form class=\"mbr-form\" action=\"barten97@aol.com\" method=\"post\" name=\"Mobirise Form\" target=\"_top\" novalidate data-verified=\"barten97@aol.com\">\n                            <div class=\"mbr-row\">\n                              <div submit-success class=\"mbr-col-sm-12 mbr-col-md-12\">\n                                  <template data-form-alert type=\"amp-mustache\">Subscription successful!</template>\n                              </div>\n                              <div submit-error class=\"mbr-col-sm-12 mbr-col-md-12\">\n                                  <template data-form-alert type=\"amp-mustache\">Subscription successful!</template>\n                              </div>\n                            </div>\n                            <div class=\"mbr-row\" data-for=\"form[data][1][1]\">\n                                <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][1][1]\">\n                                    <input type=\"hidden\" name=\"form[data][1][0]\" value=\"Name\">\n                                    <input class=\"field-input\" type=\"text\" name=\"form[data][1][1]\" data-form-field=\"Name\" placeholder=\"Nombre y Apellidos\" required>\n                                </div>\n                                <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][2][1]\">\n                                    <input type=\"hidden\" name=\"form[data][2][0]\" value=\"Phone\">\n                                    <input class=\"field-input\" type=\"phone\" name=\"form[data][2][1]\" data-form-field=\"Phone\" placeholder=\"Teléfono\" required>\n                                </div>\n                                <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][0][1]\">\n                                    <input type=\"hidden\" name=\"form[data][0][0]\" value=\"Email\">\n                                    <input class=\"field-input\" type=\"email\" name=\"form[data][0][1]\" data-form-field=\"Email\" placeholder=\"Correo Electrónico\" required>\n                                </div>\n                                <div class=\"area field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\" data-for=\"form[data][3][1]\">\n                                    <input type=\"hidden\" name=\"form[data][3][0]\" value=\"Message\">\n                                    <textarea class=\"field-input\" name=\"form[data][3][1]\" rows=\"7\" data-form-field=\"Message\" placeholder=\"Mensaje\"></textarea>\n                                </div>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn field mbr-col-lg-12\"><a type=\"submit\" class=\"btn btn-primary btn-form\" data-app-placeholder=\"Type Text\">ENVIAR MENSAJE</a></div>\n                            </div>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "twFPVWzM2O",
+          "_anchor": "form3-b",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".foot-menu": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "padding": "0",
+              "margin-bottom": "0",
+              "li": {
+                "padding": "0 1rem 1rem 1rem",
+                "p": {
+                  "margin": "0"
+                }
+              }
+            },
+            ".social-list": {
+              "padding-left": "0",
+              "margin-bottom": "0",
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "-webkit-justify-content": "flex-end",
+              "justify-content": "flex-end",
+              "& when (@showCopyright)": {
+                "padding-bottom": "1rem"
+              },
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "opacity": ".5",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": "1"
+                },
+                ".mbr-iconfont": {
+                  "color": "@iconsColor"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            ".row-copiright": {
+              "word-break": "break-word",
+              "width": "100%",
+              "p": {
+                "width": "100%",
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\"",
+              "span.mbr-iconfont": {
+                "font-size": "~\"@{iconsSize}rem\""
+              }
+            }
+          },
+          "_name": "footer4",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"8\" step=\"0.2\" value=\"2\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#df161e\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"index.html\" class=\"text-primary\">INICIO</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"servicios.html\" class=\"text-primary\">SERVICIOS</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"page2.html\" class=\"text-primary\">CONTACTENOS</a></li></ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/sytiseguridad/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-facebook-f fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/syti_seguridad_y_tecnologia/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://twitter.com/sytiseguridad\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-twitter fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.linkedin.com/in/syti-seguridad-y-tecnolog%C3%ADa-inteligente-a99404211/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-linkedin fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.pinterest.com.mx/SytiVentas/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-pinterest fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://syti-seguridad-y-tecnologia.business.site/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © 2023 SYTI Seguridad y Tecnología Inteligente</p>\n            </div>\n    </div>\n</section>",
+          "_cid": "twGMvu2HjZ",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer4-e"
+        }
+      ]
+    },
+    "servicios.html": {
+      "settings": {
+        "title": "Servicios | Instalación Profesional Video Vigilancia y Alarmas",
+        "meta_descr": "Levantamiento, instalación, venta, soporte y servicio especializado de sistemas de vigilancia. Cámaras CCTV, IP, control de movimiento, sistema de alarmas y mucho más.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": "1"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "amp-sidebar": {
+              "min-width": "260px!important",
+              "z-index": "1050!important",
+              "background-color": "@menuBgColor"
+            },
+            "amp-sidebar.open:after": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "background-color": "red"
+            },
+            ".open": {
+              "animation": "none",
+              "-webkit-transform": "translateX(0%) !important",
+              "transform": "translateX(0%) !important",
+              "display": "block!important"
+            },
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor",
+              "position": "relative",
+              "min-height": "100vh",
+              "z-index": "1030",
+              "padding": "1rem 2rem",
+              "max-width": "20rem"
+            },
+            ".headerbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding": ".5rem 1rem",
+              "min-height": "70px",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "@menuBgColor",
+              "&.sticky-nav": {
+                "position": "fixed",
+                "z-index": "1000",
+                "width": "100%"
+              }
+            },
+            "button.sticky-but": {
+              "position": "fixed"
+            },
+            ".brand": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "p": {
+                "margin": "0",
+                "padding": "0"
+              },
+              "@media (max-width: 991px)": {
+                "-webkit-align-self": "flex-start",
+                "align-self": "flex-start",
+                "padding-right": "30px"
+              }
+            },
+            ".brand-name": {
+              "color": "#232323"
+            },
+            ".sidebar": {
+              "padding": "1rem 0",
+              "margin": "0"
+            },
+            ".sidebar > li": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".sidebar a": {
+              "display": "block",
+              "text-decoration": "none",
+              "margin-bottom": "10px"
+            },
+            ".close-sidebar": {
+              "width": "30px",
+              "height": "30px",
+              "position": "relative",
+              "cursor": "pointer",
+              "background-color": "transparent",
+              "border": "none",
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              },
+              "span": {
+                "position": "absolute",
+                "left": "0",
+                "top": "50%",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "-webkit-transform": "rotate(45deg)",
+                  "transform": "rotate(45deg)"
+                },
+                "&:nth-child(2)": {
+                  "-webkit-transform": "rotate(-45deg)",
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& .brand-name": {
+                "min-width": "8rem"
+              },
+              "& .builder-sidebar": {
+                "margin-left": "auto",
+                ".sidebar li": {
+                  "-webkit-flex-direction": "row",
+                  "flex-direction": "row",
+                  "-webkit-flex-wrap": "wrap",
+                  "flex-wrap": "wrap",
+                  "a": {
+                    "padding": ".5rem",
+                    "margin": "0"
+                  }
+                }
+              },
+              "& .builder-overlay": {
+                "display": "none !important"
+              }
+            },
+            ".hamburger": {
+              "position": "absolute",
+              "top": "25px",
+              "right": "20px",
+              "margin-left": "auto",
+              "width": "30px",
+              "height": "20px",
+              "background": "none",
+              "border": "none",
+              "cursor": "pointer",
+              "z-index": "1000",
+              "& when (@showLogo)": {
+                "@media (min-width: 768px)": {
+                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
+                }
+              },
+              "&:focus": {
+                "outline": "none"
+              },
+              "span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "amp-img": {
+              "margin-right": "1rem",
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "@media (max-width: 768px)": {
+                "max-height": "55px",
+                "max-width": "55px"
+              },
+              "img": {
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"120\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#df161e\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo-sity-or-110x50.png\" layout=\"responsive\" width=\"121.00000000000001\" height=\"55\" alt=\"SYTI Seguridad y Tecnologia Inteligente | Instalacion Camaras CCTV\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo-sity-or-110x50.png\" alt=\"SYTI Seguridad y Tecnologia Inteligente | Instalacion Camaras CCTV\" data-aspectratio=\"0.9842931937172775\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">Black AMP</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">Inicio</a>\n              <a class=\"text-white text-primary\" href=\"servicios.html\" data-app-placeholder=\"Type Text\">Servicios</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "twH4VmBcRO",
+          "_anchor": "menu2-m",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#232323",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "flex",
+              "-webkit-align-items": "flex-end",
+              "align-items": "flex-end",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#232323",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#232323",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "-webkit-align-self": "center",
+                "align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header6",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod at id fugiat natus a voluptas eveniet officia iure nihil nostrum ad, modi ipsam, dicta ullam accusamus, voluptate aspernatur. Accusamus, aliquad?\n                    </p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">SYTI Seguridad y Tecnologia Inteligente</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://wa.me/52 55 20 65 15 00 \" data-app-placeholder=\"Type Text\">LLAMA AHORA&nbsp;+52 55 20 65 15 00 </a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/14.jpg\" alt=\"Mobirise\" width=\"757.747924528302\" height=\"502.008\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/14.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "twH5oD7EFP",
+          "_anchor": "header6-u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".text-block": {
+              "margin": "auto"
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#a9051e"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#070c12"
+            }
+          },
+          "_name": "features4",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-8\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/syti-especialista-sistemas-cctv-seguridad-alarmas-1536x800.jpeg\" layout=\"responsive\" width=\"731.3195604395604\" height=\"415.938\" alt=\"levantamiento profesional sistemas video vigilancia\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/syti-especialista-sistemas-cctv-seguridad-alarmas-1536x800.jpeg\" alt=\"levantamiento profesional sistemas video vigilancia\" data-aspectratio=\"0.5208333333333334\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-4\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">Instalación Profesional Video Vigialancia</span></h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">Nuestro equipo de expertos en seguridad trabaja de manera dedicada y profesional para brindar un servicio excepcional a cada uno de nuestros clientes.Si está buscando una solución de seguridad confiable y de alta calidad para su hogar o negocio;<br>&nbsp;¡llámenos hoy para una protección segura y una vida más tranquila!</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black\" href=\"https://wa.me/52 55 20 65 15 00\" data-app-placeholder=\"Type Text\">+52 55 20 65 15 00</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "twH4VnzDwN",
+          "_anchor": "features4-p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "margin": "0",
+              "letter-spacing": "2px"
+            },
+            ".mbr-section-title": {
+              "padding-bottom": "1rem",
+              "margin": "0"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1rem"
+            }
+          },
+          "_name": "content12",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"content12 mbr-section\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n<!--         <input type=\"color\" name=\"cardColor\" title=\"Card Color\" value=\"#f19814\"> -->\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#a9051e\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10\">\n                <h4 class=\"mbr-fonts-style mbr-section-title align-center mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.mbr-section-btn\">\n                    ESPECIALISTA EN SISTEMAS DE SEGURIDAD</h4>\n                <p class=\"mbr-text mbr-fonts-style align-center mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">SYTI Seguridad y Tecnologia inteligente es un proveedor líder en la Ciudad de México de sistemas de seguridad y monitoreo CCTC. Con años de experiencia en el sector de la seguridad, hemos desarrollado soluciones innovadoras y de alta calidad para proteger su empresa, hogar y oficina. Ofrecemos una amplia gama de servicios, desde la instalación de cámaras de seguridad hasta el monitoreo remoto de seguridad, para garantizar la máxima seguridad para su negocio y su familia.</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">CONTÁCTANOS</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "twHOFJ6NMm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content12-v"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              "display": "flex",
+              "-ms-flex-direction": "column",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "min-width": "0",
+              "width": "100%",
+              "min-height": "1px",
+              ".card-wrapper": {
+                "padding-right": "2rem",
+                "padding-left": "2rem"
+              }
+            },
+            ".card-title": {
+              "margin": "0"
+            },
+            ".card-box": {
+              "padding-top": "2rem"
+            },
+            ".first-column .card-wrapper": {
+              "border-left": "1px solid @linesColor"
+            },
+            ".card-pb .card": {
+              "padding-bottom": "60%"
+            },
+            ".second-column": {
+              "border-left": "1px solid @linesColor",
+              ".card": {
+                "padding-top": "60%",
+                ".card-wrapper": {
+                  "border-right": "1px solid @linesColor"
+                }
+              }
+            },
+            "amp-img": {
+              "width": "100%"
+            },
+            ".amp-notsupported .temp-amp-sizer": {
+              "position": "absolute"
+            },
+            "@media (max-width: 767px)": {
+              ".card": {
+                "margin-bottom": "2rem",
+                "padding-bottom": "0",
+                ".card-wrapper": {
+                  "border-left": "1px solid @linesColor",
+                  "border-right": "none !important"
+                }
+              },
+              ".second-column": {
+                "border": "none"
+              }
+            },
+            ".card-title-fc": {
+              "color": "#a9051e"
+            },
+            ".card-title-sc": {
+              "color": "#a9051e"
+            }
+          },
+          "_name": "features12",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"features12 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <select title=\"Columns Count\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected=\"\">2</option>\n        </select>\n        <input type=\"range\" inline=\"\" title=\"Column 1 Items\" name=\"column1Items\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Column 2 Items\" name=\"column2Items\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Lines Color\" name=\"linesColor\" value=\"#df161e\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"column first-column mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'card-pb': columnsCount == 2}\" mbr-list=\"\" mbr-list-grow=\"column1Items\">\n                <div class=\"card\">\n                    <div class=\"card-wrapper\">\n                        <div class=\"card-img\">\n                            <amp-img src=\"@PROJECT_PATH@/assets/images/banner-movil-952x417.jpg\" layout=\"responsive\" width=\"476\" height=\"208.5\" alt=\"Sistemas de Alarma para hogares y negocios\" class=\"mobirise-loader\">\n                                <div placeholder=\"\" class=\"placeholder\"></div>\n                                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/banner-movil-952x417.jpg\" alt=\"Sistemas de Alarma para hogares y negocios\" data-aspectratio=\"0.6666666666666666\">\n                            </amp-img>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title card-title-fc mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title-fc\">\n                                Sistemas de Alarmas</h4>\n                            <p class=\"mbr-text-fc mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text-fc\">• Soluciones para hogares<br>• Paquetes de seguridad para hogares<br>• Soluciones de alarmas de protección para empresas<br>• Instalación y mantenimiento de sensores de movimiento<br>• Servicios de consultoría&nbsp;<br>Los sistemas de alarmas consisten en los sensores de movimiento que se instalan en el hogar o negocio que se quiera proteger y la conexión que tiene la alarma con una central receptora de alarmas, donde se verifica cada alerta para avisar, si es necesario, a la policía o algún servicio de emergencia<br></p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\">\n                    <div class=\"card-wrapper\">\n                        <div class=\"card-img\">\n                            <amp-img src=\"@PROJECT_PATH@/assets/images/monitoring-1-crop-u2053-950x416.jpg\" layout=\"responsive\" width=\"476.0002403846154\" height=\"208.438\" alt=\"Monitoreo Remoto 24/7\" class=\"mobirise-loader\">\n                                <div placeholder=\"\" class=\"placeholder\"></div>\n                                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/monitoring-1-crop-u2053-950x416.jpg\" alt=\"Monitoreo Remoto 24/7\" data-aspectratio=\"0.6666666666666666\">\n                            </amp-img>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title card-title-fc mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title-fc\">Centro de Monitoreo Remoto</h4>\n                            <p class=\"mbr-text-fc mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text-fc\">\n                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis saepe dolorum, et, est voluptatum mollitia accusamus optio nostrum beatae facere laboriosam, placeat aliquam pariatur atque quisquam, aperiam ipsam.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"column second-column mbr-col-sm-12 mbr-col-md-6\" mbr-list=\"\" mbr-list-grow=\"column2Items\" mbr-if=\"columnsCount == 2\">\n                <div class=\"card\">\n                    <div class=\"card-wrapper\">\n                        <div class=\"card-img\">\n                            <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-1920x1322.jpg\" layout=\"responsive\" height=\"327.055\" width=\"474.99667170953103\" alt=\"Instalación Profesional Video Vigilancia\" class=\"mobirise-loader\">\n                                <div placeholder=\"\" class=\"placeholder\"></div>\n                                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-1920x1322.jpg\" alt=\"Instalación Profesional Video Vigilancia\" data-aspectratio=\"0.6666666666666666\">\n                            </amp-img>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title card-title-sc mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title-sc\">\n                                Instalación Video Vigilancia</h4>\n                            <p class=\"mbr-text-sc mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text-sc\">• Instalación profesional de kit de cámara bullet y cámara domo para interiores y exteriores<br>• Instalación cámaras 4K para áreas que requieren nitidez de imágenes<br>• Instalación de sistemas de video vigilancia con cámaras IP para monitorear tu casa o negocio usando un software que se conecta directamente a internet<br>• Instalación de cámaras de visión nocturna<br>• Servicios de mantenimiento preventivos y correctivos para cámaras de seguridad CCTV<br>Hace tiempo que las cámaras de video vigilancia ya no son un artículo de lujo o algo inalcanzable. La instalación de unas cámaras de seguridad te proporcionará sin duda una sensación de seguridad y tranquilidad mucho mayor.<br><br></p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card\">\n                    <div class=\"card-wrapper\">\n                        <div class=\"card-img\">\n                            <amp-img src=\"@PROJECT_PATH@/assets/images/cerca-electrificada-564x846.jpeg\" layout=\"responsive\" height=\"385.133\" width=\"474.99736666666666\" alt=\"Protección con cerca electrificada\" class=\"mobirise-loader\">\n                                <div placeholder=\"\" class=\"placeholder\"></div>\n                                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/cerca-electrificada-564x846.jpeg\" alt=\"Protección con cerca electrificada\" data-aspectratio=\"0.6666666666666666\">\n                            </amp-img>\n                        </div>\n                        <div class=\"card-box\">\n                            <h4 class=\"card-title card-title-sc mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title-sc\">\n                                Protección con Cerca Electrificada</h4>\n                            <p class=\"mbr-text-sc mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text-sc\">• Instalación profesional de Cercas Electrificadas<br>En SYTI Seguridad y Tecnología Inteligente nos importa mantener seguros a nuestros clientes y sus hogares. Nuestras cercas electrificadas ofrecen una protección efectiva y fácil de usar. Con la tecnología de vanguardia, puedes estar seguro de que tu propiedad estará siempre protegida y segura.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "twHTHhVow2",
+          "_anchor": "features12-x",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#070c12"
+            },
+            ".mbr-section-title": {
+              "& when not (@showSubtitle)": {
+                "padding-bottom": "2rem"
+              }
+            },
+            ".area": {
+              "width": "100%",
+              "padding": ".5rem"
+            },
+            ".field": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "padding": ".5rem",
+              "margin": "0"
+            },
+            "textarea": {
+              "width": "100%",
+              "max-width": "100%"
+            },
+            ".main-row": {
+              "padding-top": ".5rem",
+              "& when (@reverseContent)": {
+                "-webkit-flex-direction": "row-reverse",
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".list-item": {
+              "display": "flex",
+              "padding": "0 1.6rem 1.6rem 1.6rem",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".mbr-iconfont": {
+                "color": "@iconsColor"
+              },
+              "h5": {
+                "margin": "0",
+                "width": "100%"
+              },
+              "color": "#15181b"
+            },
+            ".map-placeholder": {
+              "display": "none",
+              "h4": {
+                "padding-top": "5rem",
+                "color": "#767676",
+                "text-align": "center"
+              }
+            },
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "width": "100%",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".mbr-col-md-12": {
+                "width": "100%"
+              },
+              ".main-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "column-reverse",
+                  "flex-direction": "column-reverse"
+                }
+              },
+              "label.input-label, textarea": {
+                "width": "100%"
+              },
+              ".form-content": {
+                "& when (@reverseContent)": {
+                  "padding-bottom": "2rem"
+                },
+                "& when not (@reverseContent)": {
+                  "padding-top": "2rem"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              "label.area": {
+                "padding": ".5rem .5rem"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "margin-right": "1rem",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\"",
+              "span.mbr-iconfont": {
+                "font-size": "~\"@{iconsSize}rem\""
+              }
+            },
+            "H2": {
+              "color": "#df161e"
+            }
+          },
+          "_name": "form3",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"form3 map\" group=\"Forms\" plugins=\"amp-main,amp-form,amp-mustache,amp-iframe\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.3\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#902413\" condition=\"showIcons\">\n        <input type=\"range\" inline name=\"listItems\" title=\"List Items\" min=\"0\" max=\"6\" value=\"0\">\n        <input type=\"checkbox\" title=\"Map on Left/Right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/intalacion-camaras-seguridad-cctiv-2000x1333.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#070c12\">\n        </fieldset>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15056.916775214007!2d-99.1316671!3d19.3592262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe3907bb99cb%3A0x734c81b2a39583a9!2sSyti%20Seguridad%20y%20Tecnologia%20Inteligente!5e0!3m2!1sen!2sus!4v1677141120959!5m2!1sen!2sus&quot; width=&quot;300&quot; height=&quot;650&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15056.916775214007!2d-99.1316671!3d19.3592262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fe3907bb99cb%3A0x734c81b2a39583a9!2sSyti%20Seguridad%20y%20Tecnologia%20Inteligente!5e0!3m2!1sen!2sus!4v1677141120959!5m2!1sen!2sus&quot; width=&quot;300&quot; height=&quot;650&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\">\n            Contáctanos</h2>\n        <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\"><div><br></div><div>Mantén tu patrimonio seguro.</div><div>Obtén cotización gratis:</div><div>Llámanos hoy al<br><a href=\"https://wa.me/52 55 2065 1500\" class=\"text-primary\">WhatsApp:&nbsp;+52 55 2065 1500</a><br><a href=\"mailto:contacto@sytiseguridad.com.mx\" class=\"text-primary\">&nbsp;contacto@sytiseguridad.com.mx</a></div></h3>\n\n        <div class=\"mbr-row mbr-justify-content-center main-row\">\n            <div class=\"mbr-col-lg-6 mbr-col-md-12\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n                <div class=\"map-placeholder mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </div>\n            </div>\n\n            <div mbr-form class=\"mbr-col-lg-6 mbr-col-md-12 form-content\">\n                <div class=\"mbr-row\">\n                    <div class=\"mbr-col-lg-12\" mbr-if=\"listItems!=0\">\n                        <div class=\"mbr-row\" mbr-list mbr-list-grow=\"listItems\">\n                            <div class=\"list-item mbr-col-lg-6 mbr-col-md-6\">\n                                <div class=\"iconfont-wrapper\">\n                                    <span mbr-icon class=\"mbr-iconfont fa fa-phone-square\" mbr-if=\"showIcons\"></span>\n                                </div>\n                                <h5 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".list-item\">+52 55 2065 1500</h5>\n                            </div>\n                            \n                            \n                        </div>\n                    </div>\n                    <div class=\"mbr-col-lg-12 mbr-col-md-12\">\n                        <form class=\"mbr-form\" action=\"barten97@aol.com\" method=\"post\" name=\"Mobirise Form\" target=\"_top\" novalidate data-verified=\"barten97@aol.com\">\n                            <div class=\"mbr-row\">\n                              <div submit-success class=\"mbr-col-sm-12 mbr-col-md-12\">\n                                  <template data-form-alert type=\"amp-mustache\">Subscription successful!</template>\n                              </div>\n                              <div submit-error class=\"mbr-col-sm-12 mbr-col-md-12\">\n                                  <template data-form-alert type=\"amp-mustache\">Subscription successful!</template>\n                              </div>\n                            </div>\n                            <div class=\"mbr-row\" data-for=\"form[data][1][1]\">\n                                <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][1][1]\">\n                                    <input type=\"hidden\" name=\"form[data][1][0]\" value=\"Name\">\n                                    <input class=\"field-input\" type=\"text\" name=\"form[data][1][1]\" data-form-field=\"Name\" placeholder=\"Nombre y Apellidos\" required>\n                                </div>\n                                <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][2][1]\">\n                                    <input type=\"hidden\" name=\"form[data][2][0]\" value=\"Phone\">\n                                    <input class=\"field-input\" type=\"phone\" name=\"form[data][2][1]\" data-form-field=\"Phone\" placeholder=\"Teléfono\" required>\n                                </div>\n                                <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][0][1]\">\n                                    <input type=\"hidden\" name=\"form[data][0][0]\" value=\"Email\">\n                                    <input class=\"field-input\" type=\"email\" name=\"form[data][0][1]\" data-form-field=\"Email\" placeholder=\"Correo Electrónico\" required>\n                                </div>\n                                <div class=\"area field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\" data-for=\"form[data][3][1]\">\n                                    <input type=\"hidden\" name=\"form[data][3][0]\" value=\"Message\">\n                                    <textarea class=\"field-input\" name=\"form[data][3][1]\" rows=\"7\" data-form-field=\"Message\" placeholder=\"Mensaje\"></textarea>\n                                </div>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn field mbr-col-lg-12\"><a type=\"submit\" class=\"btn btn-primary btn-form\" data-app-placeholder=\"Type Text\">ENVIAR MENSAJE</a></div>\n                            </div>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "twH4VozdwP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "form3-s"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".foot-menu": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "padding": "0",
+              "margin-bottom": "0",
+              "li": {
+                "padding": "0 1rem 1rem 1rem",
+                "p": {
+                  "margin": "0"
+                }
+              }
+            },
+            ".social-list": {
+              "padding-left": "0",
+              "margin-bottom": "0",
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "-webkit-justify-content": "flex-end",
+              "justify-content": "flex-end",
+              "& when (@showCopyright)": {
+                "padding-bottom": "1rem"
+              },
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "opacity": ".5",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": "1"
+                },
+                ".mbr-iconfont": {
+                  "color": "@iconsColor"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            ".row-copiright": {
+              "word-break": "break-word",
+              "width": "100%",
+              "p": {
+                "width": "100%",
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\"",
+              "span.mbr-iconfont": {
+                "font-size": "~\"@{iconsSize}rem\""
+              }
+            }
+          },
+          "_name": "footer4",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"8\" step=\"0.2\" value=\"2\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#df161e\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"index.html\" class=\"text-primary\">INICIO</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"servicios.html\" class=\"text-primary\">SERVICIOS</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"page2.html\" class=\"text-primary\">CONTACTENOS</a></li></ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/sytiseguridad/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-facebook-f fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/syti_seguridad_y_tecnologia/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://twitter.com/sytiseguridad\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-twitter fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.linkedin.com/in/syti-seguridad-y-tecnolog%C3%ADa-inteligente-a99404211/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-linkedin fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.pinterest.com.mx/SytiVentas/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-pinterest fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://syti-seguridad-y-tecnologia.business.site/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © 2023 SYTI Seguridad y Tecnología Inteligente</p>\n            </div>\n    </div>\n</section>",
+          "_cid": "twH4Vp0oeR",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer4-t"
+        }
+      ]
+    },
+    "contacto.html": {
+      "settings": {
+        "title": "Contáctenos | SYTI Seguridad y Tecnología Inteligente",
+        "meta_descr": "Levantamiento, instalación, venta, soporte y servicio especializado de sistemas de vigilancia. Cámaras CCTV, IP, control de movimiento, sistema de alarmas y mucho más.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": "2"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "amp-sidebar": {
+              "min-width": "260px!important",
+              "z-index": "1050!important",
+              "background-color": "@menuBgColor"
+            },
+            "amp-sidebar.open:after": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "background-color": "red"
+            },
+            ".open": {
+              "animation": "none",
+              "-webkit-transform": "translateX(0%) !important",
+              "transform": "translateX(0%) !important",
+              "display": "block!important"
+            },
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor",
+              "position": "relative",
+              "min-height": "100vh",
+              "z-index": "1030",
+              "padding": "1rem 2rem",
+              "max-width": "20rem"
+            },
+            ".headerbar": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding": ".5rem 1rem",
+              "min-height": "70px",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "@menuBgColor",
+              "&.sticky-nav": {
+                "position": "fixed",
+                "z-index": "1000",
+                "width": "100%"
+              }
+            },
+            "button.sticky-but": {
+              "position": "fixed"
+            },
+            ".brand": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "p": {
+                "margin": "0",
+                "padding": "0"
+              },
+              "@media (max-width: 991px)": {
+                "-webkit-align-self": "flex-start",
+                "align-self": "flex-start",
+                "padding-right": "30px"
+              }
+            },
+            ".brand-name": {
+              "color": "#232323"
+            },
+            ".sidebar": {
+              "padding": "1rem 0",
+              "margin": "0"
+            },
+            ".sidebar > li": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".sidebar a": {
+              "display": "block",
+              "text-decoration": "none",
+              "margin-bottom": "10px"
+            },
+            ".close-sidebar": {
+              "width": "30px",
+              "height": "30px",
+              "position": "relative",
+              "cursor": "pointer",
+              "background-color": "transparent",
+              "border": "none",
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              },
+              "span": {
+                "position": "absolute",
+                "left": "0",
+                "top": "50%",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "-webkit-transform": "rotate(45deg)",
+                  "transform": "rotate(45deg)"
+                },
+                "&:nth-child(2)": {
+                  "-webkit-transform": "rotate(-45deg)",
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& .brand-name": {
+                "min-width": "8rem"
+              },
+              "& .builder-sidebar": {
+                "margin-left": "auto",
+                ".sidebar li": {
+                  "-webkit-flex-direction": "row",
+                  "flex-direction": "row",
+                  "-webkit-flex-wrap": "wrap",
+                  "flex-wrap": "wrap",
+                  "a": {
+                    "padding": ".5rem",
+                    "margin": "0"
+                  }
+                }
+              },
+              "& .builder-overlay": {
+                "display": "none !important"
+              }
+            },
+            ".hamburger": {
+              "position": "absolute",
+              "top": "25px",
+              "right": "20px",
+              "margin-left": "auto",
+              "width": "30px",
+              "height": "20px",
+              "background": "none",
+              "border": "none",
+              "cursor": "pointer",
+              "z-index": "1000",
+              "& when (@showLogo)": {
+                "@media (min-width: 768px)": {
+                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
+                }
+              },
+              "&:focus": {
+                "outline": "none"
+              },
+              "span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "amp-img": {
+              "margin-right": "1rem",
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "@media (max-width: 768px)": {
+                "max-height": "55px",
+                "max-width": "55px"
+              },
+              "img": {
+                "height": "100%",
+                "object-fit": "cover",
+                "object-position": "center"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"120\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#df161e\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo-sity-or-110x50.png\" layout=\"responsive\" width=\"121.00000000000001\" height=\"55\" alt=\"SYTI Seguridad y Tecnologia Inteligente | Instalacion Camaras CCTV\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo-sity-or-110x50.png\" alt=\"SYTI Seguridad y Tecnologia Inteligente | Instalacion Camaras CCTV\" data-aspectratio=\"0.9842931937172775\">\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">Black AMP</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">Inicio</a>\n              <a class=\"text-white text-primary\" href=\"servicios.html\" data-app-placeholder=\"Type Text\">Servicios</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Contact Us</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "twI0ukJoWA",
+          "_anchor": "menu2-z",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "_name": "header4",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/videovigilancia-1515x960.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#15181b\"> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-white mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            <br>SYTI Seguridad y Tecnologia Inteligente</h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">Para este 2023 renueva tu equipo videovigilancia por uno más moderno y completo que te garantizará la seguridad de tu hogar, negocio y empresa.&nbsp;</h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n            <a class=\"btn btn-md btn-white\" href=\"https://mobiri.se\">\n                TRY IT\n            </a>\n        </div>\n    </div>\n</section>",
+          "_cid": "twI5SErD7u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header4-1d"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "margin-bottom": "0",
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "color": "#a9051e",
+              "text-align": "center"
+            }
+          },
+          "_name": "content2",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">SYTI una empresa 100% mexicana</h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article> SYTI Seguridad y Tecnología está comprometido con la seguridad de tu negocio o empresa. Actualmente integramos soluciones para empresas y negocios, en el sector de seguridad, como sistema CCTV, Sirenas, Cercas eléctricas, Alarmas y Controles de Acceso.Los recursos que integramos en nuestros sistemas, los diseñamos para una vigilancia inteligente, en la cual, nuestros clientes tienen acceso remoto (vía PC, celular o tablet) para monitorear los lugares donde tienen instalados nuestros sistemas.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "twI0umzwLK",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-14"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-row": {
+              "margin": "0 15px"
+            },
+            ".card": {
+              "align-items": "center",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "20px"
+              },
+              ".card-img": {
+                "margin-bottom": "1rem",
+                "& when (@showIcons)": {
+                  ".mbr-iconfont": {
+                    "color": "@iconsColor",
+                    "fill": "@iconsColor",
+                    "font-size": "(@iconsSize * 1rem)",
+                    "width": "(@iconsSize * 1rem)",
+                    "vertical-align": "middle"
+                  },
+                  "&.iconfont-wrapper": {
+                    "display": "inline-block",
+                    "width": "100%"
+                  }
+                }
+              }
+            },
+            ".mbr-card-title": {
+              "margin": "0",
+              "padding": "0 0 .5rem 0",
+              "color": "#494949",
+              "letter-spacing": ".15rem",
+              "width": "100%"
+            },
+            ".mbr-text": {
+              "margin": "0",
+              "padding": "0"
+            },
+            ".mbr-section-btn": {
+              "width": "100%",
+              "padding-top": "0.7rem"
+            }
+          },
+          "_name": "content15",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"content15 mbr-section\" group=\"Articles\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"4\" step=\"0.5\" value=\"7\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#dd4f39\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-row mbr-jc-c\">\n        <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                         'mbr-col-lg-3': cardsAmount > 3}\">\n            <div class=\"iconfont-wrapper card-img\" mbr-if=\"showIcons\">\n                <span mbr-icon class=\"mbr-iconfont fa-map-marker fa\"></span>\n            </div>\n            <h6 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title, .iconfont-wrapper\"><div><span style=\"background-color: transparent;\">Ubicación</span><br></div></h6>\n            <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Sur 77-A 214, Sinatel, Iztapalapa, 09470 Ciudad de México, CDMX\n            </p>\n            <div class=\"mbr-section-btn align-center\" mbr-buttons data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\" mbr-theme-style=\"display-4\" mbr-if=\"showButtons\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobiri.se\">\n                    LEARN MORE\n                </a>\n            </div>\n        </div>\n\n        <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                         'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 1\">\n            <div class=\"iconfont-wrapper card-img\" mbr-if=\"showIcons\">\n                <span mbr-icon class=\"mbr-iconfont fa-phone fa\"></span>\n            </div>\n            <h6 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title, .iconfont-wrapper\">Llámanos</h6>\n            <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">+52 55 20 65 15 00 y<br>55 4933 8628</p>\n            <div class=\"mbr-section-btn align-center\" mbr-buttons data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\" mbr-theme-style=\"display-4\" mbr-if=\"showButtons\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobiri.se\">\n                    LEARN MORE\n                </a>\n            </div>\n        </div>\n\n        <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                         'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 2\">\n            <div class=\"iconfont-wrapper card-img\" mbr-if=\"showIcons\">\n                <span mbr-icon class=\"mbr-iconfont fa-envelope fa\"></span>\n            </div>\n            <h6 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title, .iconfont-wrapper\">\n                Email</h6>\n            <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                contacto@systiseguridad.com.mx\n            </p>\n            <div class=\"mbr-section-btn align-center\" mbr-buttons data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\" mbr-theme-style=\"display-4\" mbr-if=\"showButtons\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobiri.se\">\n                    LEARN MORE\n                </a>\n            </div>\n        </div>\n\n        <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                         'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 3\">\n            <div class=\"iconfont-wrapper card-img\" mbr-if=\"showIcons\">\n                <span mbr-icon class=\"mbr-iconfont fa fa-lemon-o\"></span>\n            </div>\n            <h6 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title, .iconfont-wrapper\">\n                Results\n            </h6>\n            <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aperiam\n            </p>\n            <div class=\"mbr-section-btn align-center\" mbr-buttons data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\" mbr-theme-style=\"display-4\" mbr-if=\"showButtons\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobiri.se\">\n                    LEARN MORE\n                </a>\n            </div>\n        </div>\n\n    </div>\n</section>",
+          "_cid": "twIbJu3PnM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content15-1e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            ".area": {
+              "width": "100%"
+            },
+            ".field": {
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "padding": ".5rem",
+              "margin": "0"
+            },
+            "label.area": {
+              "padding": ".5rem"
+            },
+            "textarea": {
+              "width": "100%",
+              "max-width": "100%"
+            },
+            "@media (max-width: 992px)": {
+              "label.input-label, textarea": {
+                "width": "100%"
+              }
+            },
+            "H2": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "form2",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"form2\" group=\"Forms\" plugins=\"amp-main,amp-form,amp-mustache\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n            OBTÉN TU COTIZACIÓN GRATIS</h2>\n        <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">Llena nuestro formulario y con gusto te responderemos a la brevedad posible.</h3>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div mbr-form class=\"mbr-col-lg-6  mbr-col-md-10 \">\n                <form class=\"mbr-form\" action=\"barten97@aol.com\" method=\"post\" name=\"Mobirise Form\" target=\"_top\" novalidate data-verified=\"barten97@aol.com\">\n                    <div class=\"mbr-row\">\n                      <div submit-success class=\"mbr-col-sm-12 mbr-col-md-12\">\n                          <template data-form-alert type=\"amp-mustache\">¡Su mensaje fue recibido exitosamente!</template>\n                      </div>\n                      <div submit-error class=\"mbr-col-sm-12 mbr-col-md-12\">\n                          <template data-form-alert type=\"amp-mustache\">¡Su mensaje fue recibido exitosamente!</template>\n                      </div>\n                    </div>\n                    <div class=\"mbr-row\">\n                        <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][1][1]\">\n                            <input type=\"hidden\" name=\"form[data][1][0]\" value=\"Name\">\n                            <input class=\"field-input\" type=\"text\" name=\"form[data][1][1]\" data-form-field=\"Name\" placeholder=\"Nombre y Apellidos\" required>\n                        </div>\n                        <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][2][1]\">\n                            <input type=\"hidden\" name=\"form[data][2][0]\" value=\"Phone\">\n                            <input class=\"field-input\" type=\"phone\" name=\"form[data][2][1]\" data-form-field=\"Phone\" placeholder=\"Phone\" required>\n                        </div>\n                        <div class=\"field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-4\" data-for=\"form[data][0][1]\">\n                            <input type=\"hidden\" name=\"form[data][0][0]\" value=\"Email\">\n                            <input class=\"field-input\" type=\"email\" name=\"form[data][0][1]\" data-form-field=\"Email\" placeholder=\"Correo Electrónico\" required>\n                        </div>\n                        <div class=\"area field mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\" data-for=\"form[data][3][1]\">\n                            <input type=\"hidden\" name=\"form[data][3][0]\" value=\"Message\">\n                            <textarea class=\"field-input\" name=\"form[data][3][1]\" rows=\"7\" data-form-field=\"Message\" placeholder=\"Mensaje\"></textarea>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn field mbr-col-lg-12\"><a type=\"submit\" class=\"btn btn-primary btn-form\" data-app-placeholder=\"Type Text\">ENVIAR MENSAJE</a></div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "twI1QIcGkw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "form2-18"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".foot-menu": {
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "padding": "0",
+              "margin-bottom": "0",
+              "li": {
+                "padding": "0 1rem 1rem 1rem",
+                "p": {
+                  "margin": "0"
+                }
+              }
+            },
+            ".social-list": {
+              "padding-left": "0",
+              "margin-bottom": "0",
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "-webkit-justify-content": "flex-end",
+              "justify-content": "flex-end",
+              "& when (@showCopyright)": {
+                "padding-bottom": "1rem"
+              },
+              ".soc-item": {
+                "margin": "0 .5rem"
+              },
+              "a": {
+                "margin": "0",
+                "opacity": ".5",
+                "-webkit-transition": ".2s linear",
+                "transition": ".2s linear",
+                "&:hover": {
+                  "opacity": "1"
+                },
+                ".mbr-iconfont": {
+                  "color": "@iconsColor"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            ".row-copiright": {
+              "word-break": "break-word",
+              "width": "100%",
+              "p": {
+                "width": "100%",
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\"",
+              "span.mbr-iconfont": {
+                "font-size": "~\"@{iconsSize}rem\""
+              }
+            }
+          },
+          "_name": "footer4",
+          "_sourceTheme": "blackamp",
+          "_customHTML": "<section class=\"footer4\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"8\" step=\"0.2\" value=\"2\" condition=\"socialItems > 0\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#df161e\" condition=\"socialItems > 0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"index.html\" class=\"text-primary\">INICIO</a></li>\n                    \n                    \n                    \n                    \n                <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"servicios.html\" class=\"text-primary\">SERVICIOS</a></li><li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"page2.html\" class=\"text-primary\">CONTACTENOS</a></li></ul>\n            </div>\n            <div class=\"mbr-row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/sytiseguridad/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-facebook-f fa\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/syti_seguridad_y_tecnologia/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://twitter.com/sytiseguridad\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-twitter fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.linkedin.com/in/syti-seguridad-y-tecnolog%C3%ADa-inteligente-a99404211/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-linkedin fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.pinterest.com.mx/SytiVentas/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-pinterest fa\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://syti-seguridad-y-tecnologia.business.site/\" target=\"_blank\" class=\"iconfont-wrapper\">\n                            <span mbr-icon class=\"mbr-iconfont fa-google fa\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"mbr-row row-copiright\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    © 2023 SYTI Seguridad y Tecnología Inteligente</p>\n            </div>\n    </div>\n</section>",
+          "_cid": "twI0unhA3T",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer4-16"
+        }
+      ]
+    }
+  }
+}
